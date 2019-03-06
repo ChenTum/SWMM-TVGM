@@ -18,6 +18,66 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="codes\consts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\datetime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\enums.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\exfil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\findroot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\funcs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\headers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\infil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\keywords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\lid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\mathexpr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\mempool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\objects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\odesolve.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\swmm5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="codes\text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -26,5 +86,167 @@
     <ClCompile Include="SWMM-TVGM_V1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="codes\climate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\controls.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\culvert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\datetime.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\dwflow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\dynwave.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\error.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\exfil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\findroot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\flowrout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\forcmain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\gage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\gwater.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\hotstart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\iface.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\infil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\inflow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\input.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\inputrpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\keywords.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\kinwave.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\landuse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\lid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\lidproc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\link.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\massbal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\mathexpr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\mempool.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\node.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\odesolve.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\output.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\project.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\qualrout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\rdii.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\report.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\roadway.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\routing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\runoff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\shape.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\snow.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\stats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\statsrpt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\subcatch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\surfqual.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\swmm5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\table.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\toposort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\transect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\treatmnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="codes\xsect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codes\swmm5.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="codes\xsect.dat" />
   </ItemGroup>
 </Project>

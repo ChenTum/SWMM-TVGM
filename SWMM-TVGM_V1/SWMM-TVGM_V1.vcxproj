@@ -151,9 +151,81 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="codes\consts.h" />
+    <ClInclude Include="codes\datetime.h" />
+    <ClInclude Include="codes\enums.h" />
+    <ClInclude Include="codes\error.h" />
+    <ClInclude Include="codes\exfil.h" />
+    <ClInclude Include="codes\findroot.h" />
+    <ClInclude Include="codes\funcs.h" />
+    <ClInclude Include="codes\globals.h" />
+    <ClInclude Include="codes\hash.h" />
+    <ClInclude Include="codes\headers.h" />
+    <ClInclude Include="codes\infil.h" />
+    <ClInclude Include="codes\keywords.h" />
+    <ClInclude Include="codes\lid.h" />
+    <ClInclude Include="codes\macros.h" />
+    <ClInclude Include="codes\mathexpr.h" />
+    <ClInclude Include="codes\mempool.h" />
+    <ClInclude Include="codes\objects.h" />
+    <ClInclude Include="codes\odesolve.h" />
+    <ClInclude Include="codes\swmm5.h" />
+    <ClInclude Include="codes\text.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="codes\climate.c" />
+    <ClCompile Include="codes\controls.c" />
+    <ClCompile Include="codes\culvert.c" />
+    <ClCompile Include="codes\datetime.c" />
+    <ClCompile Include="codes\dwflow.c" />
+    <ClCompile Include="codes\dynwave.c" />
+    <ClCompile Include="codes\error.c" />
+    <ClCompile Include="codes\exfil.c" />
+    <ClCompile Include="codes\findroot.c" />
+    <ClCompile Include="codes\flowrout.c" />
+    <ClCompile Include="codes\forcmain.c" />
+    <ClCompile Include="codes\gage.c" />
+    <ClCompile Include="codes\gwater.c" />
+    <ClCompile Include="codes\hash.c" />
+    <ClCompile Include="codes\hotstart.c" />
+    <ClCompile Include="codes\iface.c" />
+    <ClCompile Include="codes\infil.c" />
+    <ClCompile Include="codes\inflow.c" />
+    <ClCompile Include="codes\input.c" />
+    <ClCompile Include="codes\inputrpt.c" />
+    <ClCompile Include="codes\keywords.c" />
+    <ClCompile Include="codes\kinwave.c" />
+    <ClCompile Include="codes\landuse.c" />
+    <ClCompile Include="codes\lid.c" />
+    <ClCompile Include="codes\lidproc.c" />
+    <ClCompile Include="codes\link.c" />
+    <ClCompile Include="codes\massbal.c" />
+    <ClCompile Include="codes\mathexpr.c" />
+    <ClCompile Include="codes\mempool.c" />
+    <ClCompile Include="codes\node.c" />
+    <ClCompile Include="codes\odesolve.c" />
+    <ClCompile Include="codes\output.c" />
+    <ClCompile Include="codes\project.c" />
+    <ClCompile Include="codes\qualrout.c" />
+    <ClCompile Include="codes\rain.c" />
+    <ClCompile Include="codes\rdii.c" />
+    <ClCompile Include="codes\report.c" />
+    <ClCompile Include="codes\roadway.c" />
+    <ClCompile Include="codes\routing.c" />
+    <ClCompile Include="codes\runoff.c" />
+    <ClCompile Include="codes\shape.c" />
+    <ClCompile Include="codes\snow.c" />
+    <ClCompile Include="codes\stats.c" />
+    <ClCompile Include="codes\statsrpt.c" />
+    <ClCompile Include="codes\subcatch.c" />
+    <ClCompile Include="codes\surfqual.c" />
+    <ClCompile Include="codes\swmm5.c" />
+    <ClCompile Include="codes\table.c" />
+    <ClCompile Include="codes\toposort.c" />
+    <ClCompile Include="codes\transect.c" />
+    <ClCompile Include="codes\treatmnt.c" />
+    <ClCompile Include="codes\xsect.c" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -161,6 +233,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="SWMM-TVGM_V1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codes\swmm5.def" />
+    <None Include="codes\xsect.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
